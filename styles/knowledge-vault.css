@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-  border: 1px solid #000103;
+  /* border: 1px solid #000103; */
   max-width: 1600px;
   margin: 0px auto;
   display: flex;
@@ -41,9 +41,181 @@ nav .menu a {
 .btn {
   background-color: #469165;
   color: #ffffff;
-  padding:12px 16px ;
+  padding: 12px 16px;
   border: none;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
+}
+.btn-2 {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 12px 16px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#banner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url("../assets/hero-bg.png");
+}
+section .banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 40px;
+  /* position: absolute; */
+  gap: 20px;
+}
+
+/* .banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.dot-container {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.dot {
+  position: absolute;
+  background-color: #469165;
+  border-radius: 8px;
+}
+
+.dot-lg {
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+.dot-md {
+  width: 12px;
+  height: 12px;
+  top: 2px;
+  left: 2px;
+  opacity: 0.4;
+}
+
+.dot-sm {
+  width: 6px;
+  height: 6px;
+  top: 5px;
+  left: 5px;
+}
+
+section .rectangle-icon-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  background-color: #ffffff;
+}
+
+section .text {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #469165;
+}
+section .full-line {
+  font-size: 72px;
+  font-weight: 700;
+  /* height: 770px;
+  width: 168px; */
+}
+
+section .line-text1 {
+  color: #ffffff;
+}
+section .line-text {
+  color: #30b868;
+}
+
+section .para {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+
+section .button-group {
+  display: flex;
+  gap: 16px;
+}
+
+#first-apps .title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+#first-apps .title p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+}
+
+section .app-card img {
+  background-color: #f95555;
+  padding: 15px;
+  border-radius: 100px;
+}
+
+section .app-card {
+  /* border: 1px solid #000000; */
+  height: 300px;
+  width: 332px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  line-height: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #ffffff;
+}
+
+#first-apps {
+  height: auto;
+  text-align: center;
+  background-color: rgb(239, 243, 243);
+  padding-bottom: 10px;
+}
+
+#first-apps .title {
+  padding-top: 69px;
+}
+
+section .card {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+#second-apps {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 120px;
 }
